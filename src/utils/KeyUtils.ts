@@ -24,7 +24,7 @@ export interface IKeyEvent {
 	which: number;
 }
 
-export function setEvent(e: KeyboardEvent) {
+export function setEvent(e: KeyboardEvent): IKeyEvent {
 	return {
 		altKey: e.altKey,
 		bubbles: e.bubbles,
