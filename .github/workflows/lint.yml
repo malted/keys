@@ -1,23 +1,22 @@
-
 name: Lint
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ['main']
   pull_request:
-    branches: [ "main" ]
-    
+    branches: ['main']
+
   workflow_dispatch:
 
 jobs:
   lint:
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v3
 
       - name: Install ESLint
         run: npm ci eslint
-      
+
       - name: Run ESLint
         run: npm run lint

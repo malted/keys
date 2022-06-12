@@ -1,14 +1,17 @@
 # keys
+
 ## A website to view information about keyboard events. Great for quick debugging.
+
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ma1ted/keys/Lint?label=Lint&logo=eslint)
 ![GitHub deployments](https://img.shields.io/github/deployments/ma1ted/keys/Production?label=Vercel&logo=vercel)
 
 ### [Try it here](https://keys.malted.dev)
 
 ### Features
-* Curated results
-* Result filtering
-* `keydown` events are logged to the console
+
+- Curated results
+- Result filtering
+- `keydown` events are logged to the console
 
 ---
 
